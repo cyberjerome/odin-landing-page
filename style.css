@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 208px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 18px;
+    gap: 24px;
+
+}
+
+.intro {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    padding: 112px 208px;
+
+}
+
+.intro-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+
+}
+
+.intro-text,
+.intro-place {
+    flex: 1;
+}
+
+
+.intro-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.intro-body {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+    margin-right: 56px;
+}
+
+button {
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+button.intro-button {
+    background: #3882F6;
+    color: white;
+    border: 1px solid #3882F6;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+    margin: 48px 0;
+}
+
+.info-img {
+    height: 160px;
+    width: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.info-text {
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    color: darkgray;
+    margin-top: 8px;
+    margin-bottom: 96px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px 280px;
+}
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.action {
+    background-color: #3882F6;
+    margin: 96px 208px;
+    padding: 48px 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.action-header {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.action-body {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.action-button {
+    background: #3882F6;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 72px;
+}
